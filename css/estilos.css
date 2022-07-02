@@ -1,0 +1,92 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 20px;
+}
+
+.gradientes{
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.trasladar{
+    transform: translate(50px,-60px);
+}
+
+.rotarEscalar{
+    /* margin: 400px;
+    transform: rotate(30deg); */
+    /* escalar: los valores mayores a uno agrandan y entre 1 y 0 achica */
+    background-color: aqua;
+    margin: 20px;
+    transform: scale(2,0.5);
+}
+
+img{
+    width: 200px;
+    /* transform: skew(30deg,10deg); */
+}
+
+img:hover{
+    transform: scale(2,2)
+}
+
+.escalar{
+    background-image: url(../img/empresa1.jpg);
+}
+
+.escalar:hover{
+    background-image: url(../img/mujersentada.jpg);
+}
+
+/* h1{
+    color: brown;
+    font-size: small;
+}
+
+h1:hover{
+    color: blue;
+    font-size: x-large;
+} */
+
+.boton{
+    border: solid red 2px;
+}
+
+.boton:focus{
+    border: blue dotted;
+}
+
+/* animaciones */
+
+.animacion{
+    margin-top: 200px;
+    color: blueviolet;
+    font-size: 100px;
+    /* nombre */
+    animation-name: efecto;
+    /* cantidad de veces q se ejecuta */
+    animation-iteration-count: infinite;
+    /* dueracion */
+    animation-duration: 4s;
+    /* cuanto tiempo va a tardar hasta que carga */
+    animation-delay: 1s;
+}
+
+/* @keyframes efecto{
+    0%{
+        color: blueviolet;
+    }
+    25%{
+        color: blue;
+        font-size: 100px;
+        transform: rotate(90deg);
+    }
+    50%{
+        color: chocolate;
+    }
+    75%{
+        color: red;
+    }
+} */
+
